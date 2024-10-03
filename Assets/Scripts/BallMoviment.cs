@@ -57,4 +57,9 @@ public class BallMoviment : MonoBehaviour
             estaVivo = false;
         }
     }
+
+    public bool Vida()
+    {
+        return estaVivo;
+    }
 }
