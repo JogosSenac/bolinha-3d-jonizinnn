@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BallMoviment : MonoBehaviour
 {
@@ -47,6 +48,10 @@ public class BallMoviment : MonoBehaviour
             Destroy(other.gameObject);
             audioPlayer.PlayOneShot(pegaCubo);
             pontos++;
+        }
+        if (other.gameObject.CompareTag("PassaFase1"))
+        {
+            SceneManager.LoadScene("nivel2");
         }
     }
 
