@@ -53,6 +53,10 @@ public class BallMoviment : MonoBehaviour
         {
             SceneManager.LoadScene("nivel2");
         }
+        if (other.gameObject.CompareTag("fim de jogo"))
+        {
+            SceneManager.LoadScene("win");
+        }
     }
 
     private void OnCollisionEnter(Collision collision)

@@ -24,7 +24,7 @@ public class MudaPosDaCamara : MonoBehaviour
     void Start()
     {
         // Lock the mouse cursor to the game screen.
-        Cursor.lockState = CursorLockMode.Locked;
+
 
     }
 
