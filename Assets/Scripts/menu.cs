@@ -25,11 +25,16 @@ public class menu : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
-    public void Quit()
+    public void TelaMenu()
+    {
+        SceneManager.LoadScene("menu");
+    }
+        public void Quit()
     {
         Application.Quit();
         Debug.Log("Quit");
     }
+
 
 }
 

@@ -8,6 +8,8 @@ TagManager:
   - CuboBrilhante
   - PassaFase1
   - fim de jogo
+  - Pontos
+  - Acelerador
   layers:
   - Default
   - TransparentFX
