@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/morte.unity
     guid: a75a5989f9ec70c4ab8ff047ce23f30d
+  - enabled: 1
+    path: Assets/Scenes/creditos.unity
+    guid: 88895291e49bb5e438d9253011ef2a3b
   m_configObjects: {}

@@ -59,11 +59,11 @@ public class BallMoviment : MonoBehaviour
             pontos++;
             textoPontos.text = pontos.ToString();
         }
-        if (other.gameObject.CompareTag("PassaFase1"))
+        if (other.gameObject.CompareTag("PassaFase1")&&pontos>=11)
         {
             SceneManager.LoadScene("nivel2");
         }
-        if (other.gameObject.CompareTag("fim de jogo"))
+        if (other.gameObject.CompareTag("fim de jogo") && pontos >= 10)
         {
             SceneManager.LoadScene("win");
         }

@@ -29,6 +29,9 @@ public class menu : MonoBehaviour
     {
         SceneManager.LoadScene("menu");
     }
+    public void Credito()
+    {
+        SceneManager.LoadScene("creditos");    }
         public void Quit()
     {
         Application.Quit();

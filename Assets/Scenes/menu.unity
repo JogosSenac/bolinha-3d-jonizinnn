@@ -1213,7 +1213,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 590010590}
         m_TargetAssemblyTypeName: menu, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: Credito
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
