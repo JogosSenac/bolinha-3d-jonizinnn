@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -35.5, y: -49.25}
+  m_AnchoredPosition: {x: 40, y: -49.25}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &401744912
@@ -615,9 +615,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'play
-
-'
+  m_text: jogar do inicio
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c0b9a1c5b68cade47b80b269deeb2894, type: 2}
   m_sharedMaterial: {fileID: -2125513492414674374, guid: c0b9a1c5b68cade47b80b269deeb2894,
@@ -695,7 +693,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130869418}
   m_CullTransparentMesh: 1
---- !u!1 &1590802858
+--- !u!1 &1732804343
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -703,8 +701,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1590802860}
-  - component: {fileID: 1590802859}
+  - component: {fileID: 1732804345}
+  - component: {fileID: 1732804344}
   m_Layer: 0
   m_Name: moonlight-sea-moewalls-com
   m_TagString: Untagged
@@ -712,15 +710,15 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!328 &1590802859
+--- !u!328 &1732804344
 VideoPlayer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1590802858}
+  m_GameObject: {fileID: 1732804343}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 526aae7cca74988408076bb13cd43c15, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 8d94604713784144b9d4cef21ca7763d, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 2040083754}
@@ -746,17 +744,17 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
---- !u!4 &1590802860
+--- !u!4 &1732804345
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1590802858}
+  m_GameObject: {fileID: 1732804343}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.1874, y: 3.8749, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1000,7 +998,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -22.2, y: 91}
+  m_AnchoredPosition: {x: 64.050064, y: 91}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2124665657
@@ -1023,9 +1021,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'morreu kkkkkkk
-
-'
+  m_text: voce morreu...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c0b9a1c5b68cade47b80b269deeb2894, type: 2}
   m_sharedMaterial: {fileID: -2125513492414674374, guid: c0b9a1c5b68cade47b80b269deeb2894,
@@ -1112,4 +1108,4 @@ SceneRoots:
   - {fileID: 736050710}
   - {fileID: 1842388237}
   - {fileID: 469366537}
-  - {fileID: 1590802860}
+  - {fileID: 1732804345}
